@@ -683,6 +683,38 @@ FW_VERSIONS = {
       b'\xa8\x8e\xf41\x00',
     ]
   }
+  CAR.WRX_LIMITED_2020: {
+    (Ecu.eps, 0x746, None): [
+      b'z\xb0\x00\x00',
+    ],
+    (Ecu.engine, 0x7E0, None): [
+      b'\xcd)\xa0p\x07',
+    ],
+    (Ecu.transmission, 0x7E1, None): [
+      b'\xcf\xfd\xd0`\x00',
+    ],
+    (Ecu.abs, 0x7B0, None): [
+      b'\x9a\x95R\x00',
+    ],
+    (Ecu.fwdCamera, 0x787, None): [
+      b'\x00\x00eO\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdCamera, 0x7C4, None): [
+      b'\xf1\x00\xac\x00\x00',
+    ],
+    (Ecu.transmission, 0x7E1, None): [
+      b'\xf1\x00\xa4\x10@',
+    ],
+    (Ecu.engine, 0x7E0, None): [
+      b'\xf1\x00\xa3\x10\x0f',
+    ],
+    (Ecu.fwdCamera, 0x7C4, None): [
+      b'\xf1\x00\xac\x00\x00',
+    ],
+    (Ecu.engine, 0x7E0, None): [
+      b'\xf1\x82\xcd)\xa0p\x07',
+    ],
+  },
 }
 
 DBC = {
